@@ -1,0 +1,1 @@
+enscript -G -2r -Ejava -P${1:-laser112} *.java

@@ -1,0 +1,10 @@
+rm -f *.class; javac *.java 2> errors
+if [ -s errors ]
+	then
+	clear
+	echo "<<<<<<<< YOUR PROGRAM HAS COMPILE TIME ERRORS >>>>>>>>"
+	echo
+	more errors
+else
+	echo no compile time errors
+	fi

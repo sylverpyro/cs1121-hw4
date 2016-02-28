@@ -1,0 +1,7 @@
+if [ -d submitted ]
+    then
+    /bin/rm -r submitted
+    fi
+mkdir submitted
+cd submitted
+recover cs1121.sec10 hw4
